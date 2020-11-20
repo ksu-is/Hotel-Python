@@ -10,7 +10,8 @@ def Home():
   print("\t\t 1 Booking")
   print("\t\t\t 2 Payment")
   print("\t\t\t\t 3 Guest Requests")
-  print("\t\t\t\t\t 4 Exit")
+  print("\t\t\t\t\t 4 Amenities Information")
+  print("\t\t\t\t\t\t 5 Exit")
   
 agent == input("Enter an option to start: ")
 if agent == 1:
@@ -22,6 +23,9 @@ elif agent == 2:
 elif agent == 3:
   print(" ")
   Guest_Requests()
+elif agent == 4:
+  print(" ")
+  Amenities()
 else:
   exit()
   
