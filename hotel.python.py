@@ -12,4 +12,17 @@ def Home():
   print("\t\t\t\t 3 Guest Requests")
   print("\t\t\t\t\t 4 Exit")
   
+agent == input("Enter an option to start: ")
+if agent == 1:
+  print(" ")
+  Booking()
+elif agent == 2:
+  print(" ")
+  Payment()
+elif agent == 3:
+  print(" ")
+  Guest_Requests()
+else:
+  exit()
+  
 Home()
