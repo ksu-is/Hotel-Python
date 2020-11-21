@@ -39,6 +39,7 @@ while True:
   agent_1 = input("Enter the name: ")
   if agent_1.isalpha():
     total += str(agent_1)
+  elif agent_1.
     
   
 Home()
