@@ -10,3 +10,6 @@ Task 5: Make sure the code works for people receiving the Python file.
 (1) The agent will see the main home screen to see which options he will need to click first depending on the guest's need.
 
 (2) With the Booking() Function, the agent will be able to input the guest's name, phone number, address, and number of nights.
+
+(3) With the Payment() Function, the agent will be able to input credit card information or select a cash option.
+
