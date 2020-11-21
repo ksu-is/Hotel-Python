@@ -29,4 +29,16 @@ elif agent == 4:
 else:
   exit()
   
+def Booking():
+  print("Book a room")
+  print(" ")
+total = 0
+report = ""
+integers = ""
+while True:
+  agent_1 = input("Enter the name: ")
+  if agent_1.isalpha():
+    total += str(agent_1)
+    
+  
 Home()
