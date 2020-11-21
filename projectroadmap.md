@@ -13,3 +13,4 @@ Task 5: Make sure the code works for people receiving the Python file.
 
 (3) With the Payment() Function, the agent will be able to input credit card information or select a cash option.
 
+(4) With the Guest Requests() Function, the agent will be able to input any special requests a room may want. This includes extra towels, extra pillows, high or low floor room.
