@@ -37,6 +37,16 @@ guest_requests("R")
 agent_d=input("Enter special requests: ")
 print(agent_d)
 
+while True:
+    breakfast = input("Would you like to add breakfast to your stay (yes or no): ")
+    print()
+    
+    if breakfast.lower() == "yes":
+        print("Breakfast will be added to your final bill. This includes breakfast for two. Each additional meal will be $10.")
+        break
+    else:
+        print("Breakfast will not be added to your final bill. Please let me know if you would like to change that.")
+
 print("Repeat the following information back to guest: ")
 print("Thank you for choosing to stay at Hotel Python. We have", agent, "staying with us", agent_b, "using", agent_c, "to pay for the room. We also made sure to include", agent_d, "in the room notes as well")
 
