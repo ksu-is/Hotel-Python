@@ -50,3 +50,11 @@ while True:
 print("Repeat the following information back to guest: ")
 print("Thank you for choosing to stay at Hotel Python. We have", agent, "staying with us", agent_b, "using", agent_c, "to pay for the room. We also made sure to include", agent_d, "in the room notes as well")
 
+print()
+print("Final Bill as follows...")
+print(agent, "Thank you for choosing to stay with us")
+print()
+print(agent_a)
+print()
+print("Method of Payment: ", agent_c)
+print("Breakfast Charge: ", breakfast)
